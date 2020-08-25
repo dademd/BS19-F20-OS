@@ -1,0 +1,4 @@
+ #!/bin/bash
+ ls /usr/bin > ~/week1/list.txt
+ grep gcc list.txt | sort -r > ex1.txt
+ rm list.txt

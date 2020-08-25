@@ -1,0 +1,108 @@
+    1  whoami
+    2  hostname
+    3  man whoami
+    4  man man
+    5  head
+    6  pwd
+    7  ~
+    8  cd ..
+    9  mkdir ~/week1
+   10  cd ~/week1
+   11  cd ~/usr/bin
+   12  ls /usr/bin
+   13  # touch myfile.txt
+   14  pwd
+   15  cd ~/week1
+   16  cd /usr/bin
+   17  ls > gcc.txt
+   18  touch gcc.txt
+   19  ls > /home/danila/week1/gcc.txt
+   20  gcc.txt
+   21  cd /home/danila/week1
+   22  sort -r gcc.txt
+   23  grep gcc gcc.txt 
+   24  touch ex1
+   25  cat ex1
+   26  kde-open ex1
+   27  kde-open5 ex1
+   28  cd home/danila/Рабочий стол/
+   29  cd home/danila
+   30  cd /home/danila
+   31  cd /home/danila/Рабочий стол
+   32  cd ~/Desktop
+   33  sudo /home/danila/week1/ex1
+   34  man sudo_root
+   35  cd /home/danila/week1/
+   36  sh ex1
+   37  sh ex1.sh
+   38  bash ex1
+   39  sh ex1
+   40  cd /home/danila/week1/
+   41  sh ex1
+   42  ex1
+   43  r ex`
+   44  ex ex1
+   45  sh ex1
+   46  q
+   47  cd /home/danila/week1/
+   48  sh ex1
+   49  sh ex1
+   50  cd /home/danila/week1/
+   51  sh ex1
+   52  cd /home/danila
+   53  cd /week1
+   54  cd ~/week1
+   55  sh ex1
+   56  chmod +x ./ex1
+   57  ./ex1
+   58  cd ~week1
+   59  cd ~/week1
+   60  chmod +x ex1
+   61  ./ex1
+   62  pwd
+   63  cd /usr/bin/
+   64  cd ~/week1
+   65  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   66  ls /usr/bin
+   67  ls /usr/bin gcc
+   68  ls gcc /usr/bin
+   69  ls /usr/bin "gcc"
+   70  ls /usr/bin | grep "gcc"
+   71  ls /usr/bin | grep gcc
+   72  ls /usr/bin sort -r
+   73  sudo apt install build-essential
+   74  sudo -al9ebr4
+   75  sudo
+   76  sudo apt install build-essential
+   77  ./ex1
+   78  cd /home/danila/week1
+   79  ./ex1
+   80  cd ~/week1
+   81  ./ex1
+   82  ./
+   83  ./ex1
+   84  touch ex2.txt
+   85  history > ex2.txt
+   86  touch ex2.sh
+   87  chmod +x ex2.sh
+   88  ./ex2.sh
+   89  rm dummy
+   90  history > ex2.sh
+   91  history > ex2.txt
+   92  touch ex3.sh
+   93  sh ex3.sh
+   94  date --help
+   95  sh ex3.sh
+   96  date+%T
+   97  date+"%T"
+   98  sh ex3.sh
+   99  gedit main.c
+  100  nano main.c
+  101  cd ~/week1
+  102  nano main.c
+  103  cd ~/week1
+  104  gcc main.c -o ex4
+  105  ./ex4
+  106  gcc main.c -o ex4
+  107  ./ex4
+  108  history > ex2.txt
