@@ -43,9 +43,6 @@ void* C(void *argument){
 	}
 }
 
-//We don't use here any protection mechnisms.
-//If maximum size of buff is big enough (100000+), then we can notice following: the first output of one thread after outputs of another thread contains incorrect size of buff. This happened, because right during the printf execution the thread was blocked, and after beeing activated, it contains old value. This is race condition. The result of program is incorrect.
-
 int main(){
 	pthread_create(&thread_P,NULL,&P,NULL);
 	pthread_create(&thread_C,NULL,&C,NULL);
