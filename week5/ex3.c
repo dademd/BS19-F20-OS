@@ -43,6 +43,8 @@ void* C(void *argument){
 	}
 }
 
+
+
 int main(){
 	pthread_create(&thread_P,NULL,&P,NULL);
 	pthread_create(&thread_C,NULL,&C,NULL);
