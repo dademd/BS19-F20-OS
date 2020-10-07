@@ -1,0 +1,1 @@
+Virtual address is an element of abstraction "virtual memory" over physical memory. It is generated programmatically and cannot be used for direct access to the physical memory

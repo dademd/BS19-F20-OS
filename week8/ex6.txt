@@ -1,0 +1,6 @@
+In an 8KB page, (8*1024 = )2^13 bytes can be addressed.
+So, 13 bits are reserved for offset.
+The remaining (16-13=)3 bits are for virtual page numbers,
+and there are (2^3=)8 of them. 
+Each of them needs an entry in the page table.
+Hence, this single-level linear page table needs 8 entries.
