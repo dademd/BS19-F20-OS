@@ -1,0 +1,9 @@
+The number of hits increases when the needed pages are already in the available page frames of memory.
+If a page is loaded into memory, unless it is swapped out, it remains in memory. 
+A reference that requires loading this page will cause a hit. 
+Hence, the sequence that increases the number of hits should contain as many identical references as possible.
+Here it is 1 1 1 1 1 1 1 ...
+Almost all page references will cause hits(except for 1st)
+
+Conversely, a sequence that decreases the number of hits consists of unrepeated numbers, e.g., 1 2 3 4 5 6 7
+Any new page reference will cause a miss, since it hasn't been chached before
