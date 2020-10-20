@@ -1,0 +1,8 @@
+After creation:
+-rwxrwxrwx 1 runner runner 0 Oct 20 15:43 _ex3.txt
+Step 1
+-rw-rw-rw- 1 runner runner 0 Oct 20 15:43 _ex3.txt
+Step 2
+-rwxrw-rwx 1 runner runner 0 Oct 20 15:43 _ex3.txt
+Step 3
+-rwxrwxrwx 1 runner runner 0 Oct 20 15:43 _ex3.txt

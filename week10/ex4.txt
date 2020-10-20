@@ -1,0 +1,4 @@
+inode: 672 {
+/home/runner/BS19-F20-OS/week10/tmp/file1
+/home/runner/BS19-F20-OS/week10/link1
+}
