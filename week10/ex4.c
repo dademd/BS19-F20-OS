@@ -6,13 +6,12 @@
 #include <unistd.h>
 
 int main(){
-  char dir[] = "./tmp";
+  char dir[] = "tmp";
   DIR *dirp = opendir(dir); 
   struct dirent* dp;
   
   while ((dp = readdir(dirp)) != NULL) {
     char fpath[300];
-    
     sprintf(fpath, "%s/%s", dir, dp->d_name);
     
     struct stat fstat;
@@ -21,7 +20,7 @@ int main(){
     if(fstat.st_nlink >= 2){
       
       char command[100];
-      sprintf(command, "echo inode: %ld {; find ~/BS19-F20-OS -inum %ld; echo }", dp->d_ino, dp->d_ino);
+      sprintf(command, "echo inode: %ld {; find . -inum %ld; echo }", dp->d_ino, dp->d_ino);
       
       system(command);
     }
