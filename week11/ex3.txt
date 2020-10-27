@@ -1,0 +1,6 @@
+printf uses line buffering here
+
+In Program 1, output is delayed until newline character is met in the buffer.
+Hence, after fork(), it is delayed both for parent and child process. Then, newline character is printf-ed, which causes printing the buffer with string "Hello" in both processes.
+
+In Program 2, "Hello" is printed immediately due to newline character in the string. Thus, after fork(), only newline character is printf-ed in both processes.
