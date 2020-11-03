@@ -1,0 +1,12 @@
+-DBUF_SIZE=20
+
+real	0m1.015s
+user	0m0.032s
+sys	0m0.261s
+
+-DBUF_SIZE=100
+
+real	0m0.297s
+user	0m0.000s
+sys	0m0.089s
+
