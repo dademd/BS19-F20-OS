@@ -1,0 +1,5 @@
+Case 1:
+If possible to dissatisfy some condition during resource allocation, deadlock prevention is the best strategy. First of all, it guarrantees stable work with resources. Next, though it may reduce performance of scheduling algorithms, doing constant deadlock checks and recovery may be much more costly as it requires redundant state writes and reads, polling all processes, etc.
+
+Case 2:
+Deadlock prevention implementation is buggy or we don't have enough information about processes' resource requirements to use some of the deadlock avoidance algorithms. If a deadlock happens, we need to somehow return a system into the normal state. For achieving this goal, if possible, we can preempt the resources from some processes and redistribute them 

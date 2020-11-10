@@ -1,0 +1,2 @@
+These processes are deadlocked:
+[ 2 ][ 3 ][ 4 ][ 5 ]

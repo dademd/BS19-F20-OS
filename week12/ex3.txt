@@ -1,12 +1,36 @@
--DBUF_SIZE=20
+changing -DBUF_SIZE
 
-real	0m1.015s
-user	0m0.032s
-sys	0m0.261s
+real    0m0.006s
+user    0m0.000s
+sys 0m0.004s
 
--DBUF_SIZE=100
+real    0m0.002s
+user    0m0.002s
+sys 0m0.000s
 
-real	0m0.297s
-user	0m0.000s
-sys	0m0.089s
+real    0m0.006s
+user    0m0.002s
+sys 0m0.000s
 
+Bigger buffer requires less memory accesses and IO calls
+That is why, latter results here are better
+
+
+
+using O_SYNC
+
+real    0m3.342s
+user    0m0.004s
+sys 0m0.088s
+
+real    0m0.722s
+user    0m0.000s
+sys 0m0.023s
+
+real    0m0.016s
+user    0m0.000s
+sys 0m0.002s
+
+
+
+O_SYNC slows the process down, because it requires the thread to wait each time it makes IO call until its completion
